@@ -31,6 +31,8 @@ def process_file(path):
                 if pres is None or temp is None:
                     continue
                 psal = _clean(ds, "PSAL", i)
+                if psal is not None:
+                    psal = np.where((psal < 20) | (psal > 40), np.nan, psal)
                 df = pd.DataFrame({"pres": pres, "temp": temp,
                                    "psal": psal if psal is not None else np.nan})
                 df["time"] = pd.Timestamp(ds["JULD"].values[i])
