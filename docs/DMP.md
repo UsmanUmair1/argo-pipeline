@@ -5,23 +5,22 @@
 
 ## 1. Data description
 - **Source data:** Argo float profile files (NetCDF), temperature, salinity and pressure,
-  from the Argo GDAC (data-argo.ifremer.fr). Region: 30S-30N, 40E-120E. Period: 2020-2022.
-  Retrieved on [DATE]. Profile index file: ar_index_global_prof.txt (retrieved [DATE]).
+  from the Argo GDAC (data-argo.ifremer.fr). Region: 30S-30N, 40E-120E. Period: 2022.
+  Retrieved on 2026-11-22. Profile index file: ar_index_global_prof.txt (retrieved 2026-11-22).
 - **Derived data (published):**
   1. Cleaned profile observations in Parquet format (one row per measurement level).
   2. Monthly summary table: mean temperature and salinity per month, 5-degree box and depth bin.
-- **Expected volume:** raw about [X] GB (not published); derived about [Y] GB.
+- **Expected volume:** raw about 0.81 GB (11,633 NetCDF files) (not published); derived about [Y] GB.
 
 ## 2. Storage and backup
 - Working copy: Linux (WSL2) home folder on a local drive.
 - Code: Git repository on GitHub. Derived data: Zenodo (archived copy).
-- Raw data is not backed up, because it can be re-downloaded from the GDAC using the saved file list.
-- Backup: [second copy, e.g. external drive or cloud storage], updated [after each major step].
+- Backup: code is versioned on GitHub; the final dataset is archived on Zenodo. Raw data is not backed up separately, because it can be re-downloaded from the Argo GDAC.
 
 ## 3. Organisation and naming
 - Folders: data/raw, data/processed, src, results, docs.
 - Parquet parts: part-00000.parquet, part-00001.parquet, ...
-- Released files: argo_indian_ocean_2020-2022_profiles_v1.0 and ..._monthly_summary_v1.0.
+- Released files: argo_indian_ocean_2022_profiles_v1.0 and ..._monthly_summary_v1.0.
 - Versioning: Git tags for code; Zenodo version numbers for data.
 
 ## 4. Documentation and metadata
@@ -37,7 +36,7 @@
 
 ## 6. Sharing and preservation
 - Published on Zenodo with a DOI after the pipeline is validated. Code archived via GitHub-Zenodo release.
-- Retention: Zenodo keeps records long-term; local copies kept for [e.g. 5 years].
+- Retention: Zenodo keeps the published record long-term. Local raw data is deleted once the dataset is published and verified; code and processed data stay in the repository and on Zenodo.
 - Access: open, no restrictions.
 
 ## 7. Responsibilities
