@@ -5,11 +5,11 @@
 
 ## 1. Data description
 - **Source data:** Argo float profile files (NetCDF), temperature, salinity and pressure,
-  from the Argo GDAC (data-argo.ifremer.fr). Region: 30°S-30°N, 40°E-120°E. Period: 2020-2022.
+  from the Argo GDAC (data-argo.ifremer.fr). Region: 30S-30N, 40E-120E. Period: 2020-2022.
   Retrieved on [DATE]. Profile index file: ar_index_global_prof.txt (retrieved [DATE]).
 - **Derived data (published):**
   1. Cleaned profile observations in Parquet format (one row per measurement level).
-  2. Monthly summary table: mean temperature and salinity per month, 5° box and depth bin.
+  2. Monthly summary table: mean temperature and salinity per month, 5-degree box and depth bin.
 - **Expected volume:** raw about [X] GB (not published); derived about [Y] GB.
 
 ## 2. Storage and backup
@@ -33,9 +33,7 @@
 ## 5. Legal and ethical
 - No personal data. Argo data is free to use; credit is required (see Argo data policy).
 - Derived data licence: [e.g. CC BY 4.0, confirm it is compatible with the Argo data policy].
-- Required acknowledgement: "These data were collected and made freely available by the
-  International Argo Program and the national programs that contribute to it."
-  Also cite the Argo DOI. Check the exact wording at argo.ucsd.edu before publishing.
+- Required acknowledgement: check the exact wording on argo.ucsd.edu and cite the Argo DOI.
 
 ## 6. Sharing and preservation
 - Published on Zenodo with a DOI after the pipeline is validated. Code archived via GitHub-Zenodo release.
