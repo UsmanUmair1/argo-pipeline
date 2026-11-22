@@ -1,4 +1,29 @@
 nohup: ignoring input
-files: 8438
-serial  n=1 run=0   372.6s rows=7939545
-serial  n=1 run=1   360.0s rows=7939545
+files: 10000
+serial  n=1 run=0   464.3s rows=7117858
+serial  n=1 run=1   511.1s rows=7117858
+serial  n=1 run=2   537.9s rows=7117858
+mp      n=1 run=0   472.1s rows=7117858
+mp      n=1 run=1   412.1s rows=7117858
+mp      n=1 run=2   419.0s rows=7117858
+mp      n=2 run=0   227.0s rows=7117858
+mp      n=2 run=1   225.4s rows=7117858
+mp      n=2 run=2   229.8s rows=7117858
+mp      n=4 run=0   149.9s rows=7117858
+mp      n=4 run=1   145.9s rows=7117858
+mp      n=4 run=2   147.3s rows=7117858
+mp      n=8 run=0   118.8s rows=7117858
+mp      n=8 run=1   176.7s rows=7117858
+mp      n=8 run=2   193.9s rows=7117858
+dask    n=1 run=0   470.5s rows=7117858
+dask    n=1 run=1   304.3s rows=7117858
+dask    n=1 run=2   312.4s rows=7117858
+dask    n=2 run=0   245.9s rows=7117858
+dask    n=2 run=1   241.1s rows=7117858
+dask    n=2 run=2   240.9s rows=7117858
+dask    n=4 run=0   196.8s rows=7117858
+dask    n=4 run=1   192.8s rows=7117858
+dask    n=4 run=2   195.2s rows=7117858
+dask    n=8 run=0   185.8s rows=7117858
+dask    n=8 run=1   201.8s rows=7117858
+dask    n=8 run=2   189.5s rows=7117858
