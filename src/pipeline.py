@@ -7,7 +7,7 @@ RAW = "data/raw"
 
 def get_files(n=None, seed=0):
     """Files from the 2020-2022 list that are already downloaded."""
-    with open(f"{RAW}/filelist_2020_2022.txt") as f:
+    with open(f"{RAW}/filelist_2022.txt") as f:
         paths = [f"{RAW}/mirror/dac/{line.strip()}" for line in f if line.strip()]
     paths = [p for p in paths if os.path.exists(p)]
     if n is not None and n < len(paths):

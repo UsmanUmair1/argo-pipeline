@@ -1,7 +1,7 @@
 # Data Management Plan
 
 **Project:** Parallel processing and open publication of Argo ocean profile data
-**Author:** [Your name], [University]    **Date:** 2026-11-22    **Version:** 1.0
+**Author:** Usman Umair, UPN Veteran Jawa Timur    **Date:** 2026-11-22    **Version:** 1.0
 
 ## 1. Data description
 - **Source data:** Argo float profile files (NetCDF), temperature, salinity and pressure,
@@ -41,5 +41,5 @@
 - Access: open, no restrictions.
 
 ## 7. Responsibilities
-- [Your name]: data processing, documentation, deposit.
-- [Supervisor, if any]: review before publication.
+- Usman Umair: data processing, documentation, deposit.
+

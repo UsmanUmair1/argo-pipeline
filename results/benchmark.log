@@ -1,0 +1,4 @@
+nohup: ignoring input
+files: 8438
+serial  n=1 run=0   372.6s rows=7939545
+serial  n=1 run=1   360.0s rows=7939545
