@@ -61,6 +61,10 @@ computes monthly regional summaries, and benchmarks serial vs. parallel processi
 - The benchmark was run before the salinity plausibility filter (see below) was added to the cleaning step. The filter is a cheap array operation, but the benchmark was not repeated with it.
 - One machine, one dataset, one chunk size (200 files). Results may differ elsewhere.
 
+## Dashboard
+
+Two interactive Plotly pages are in the results folder: dashboard_map.html (mean temperature by 5-degree box and depth bin, with a month slider) and dashboard_timeseries.html (monthly mean temperature by depth bin). GitHub shows HTML as source code, so download the files and open them in a browser. They are made with: python src/dashboard.py data/processed/monthly_summary.parquet
+
 ## Reproduce
 Always run scripts from the project root.
 
