@@ -31,8 +31,8 @@
 
 ## 5. Legal and ethical
 - No personal data. Argo data is free to use; credit is required (see Argo data policy).
-- Derived data licence: [e.g. CC BY 4.0, confirm it is compatible with the Argo data policy].
-- Required acknowledgement: check the exact wording on argo.ucsd.edu and cite the Argo DOI.
+- Derived data licence: CC BY 4.0 for the processed dataset (Argo data are free to use without restriction; acknowledgement requested). Code: MIT.
+- Required acknowledgement: the Argo acknowledgement sentence and DOI (https://doi.org/10.17882/42182) are given in the README and in the Zenodo record.
 
 ## 6. Sharing and preservation
 - Published on Zenodo with a DOI after the pipeline is validated. Code archived via GitHub-Zenodo release.
