@@ -4,6 +4,12 @@ A Python pipeline that cleans Argo float temperature/salinity profiles, stores t
 computes monthly regional summaries, and benchmarks serial vs. parallel processing
 (multiprocessing and Dask) on an 8-core laptop under WSL2 (Ubuntu 24.04).
 
+## Published dataset
+
+The processed dataset is archived on Zenodo: https://doi.org/10.5281/zenodo.24452166
+
+Suggested citation: Umair, U. (2026). Argo ocean temperature and salinity profiles, Indian Ocean and Indonesian seas, 2022 (quality-filtered subset and monthly summaries) (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24452166
+
 ## Data
 - Source: Argo GDAC (https://data-argo.ifremer.fr), core profile files (NetCDF).
 - Region: 30S-30N, 40E-120E (Indian Ocean and Indonesian seas). Period: 2022.

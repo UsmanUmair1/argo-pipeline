@@ -10,7 +10,7 @@
 - **Derived data (published):**
   1. Cleaned profile observations in Parquet format (one row per measurement level).
   2. Monthly summary table: mean temperature and salinity per month, 5-degree box and depth bin.
-- **Expected volume:** raw about 0.81 GB (11,633 NetCDF files) (not published); derived about [Y] GB.
+- **Expected volume:** raw about 0.81 GB (11,633 NetCDF files) (not published); derived about 66 MB as Parquet (55.9 MB as uploaded to Zenodo).
 
 ## 2. Storage and backup
 - Working copy: Linux (WSL2) home folder on a local drive.
@@ -35,7 +35,7 @@
 - Required acknowledgement: the Argo acknowledgement sentence and DOI (https://doi.org/10.17882/42182) are given in the README and in the Zenodo record.
 
 ## 6. Sharing and preservation
-- Published on Zenodo with a DOI after the pipeline is validated. Code archived via GitHub-Zenodo release.
+- Published on Zenodo on 2026-11-23: https://doi.org/10.5281/zenodo.24452166 (v1.0). Code is on GitHub and linked from the Zenodo record.
 - Retention: Zenodo keeps the published record long-term. Local raw data is deleted once the dataset is published and verified; code and processed data stay in the repository and on Zenodo.
 - Access: open, no restrictions.
 
